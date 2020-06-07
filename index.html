@@ -28,6 +28,10 @@
 				var element = document.body;
 				element.classList.toggle("dark-mode");
 			}
+			
+			function trackCVDownload() {
+				gtag("event", "cv_download");
+			}
 		</script>
 
 		<!-- Header -->
@@ -76,7 +80,8 @@
 								<a
 								href="/files/CV__Emile_Gill.pdf"
 								download="CV__Emile_Gill"
-								class="button primary icon solid fa-download">
+								class="button primary icon solid fa-download"
+								onclick="trackCVDownload()">
 								Download CV</a></li>
 						</ul>
 					</section>
