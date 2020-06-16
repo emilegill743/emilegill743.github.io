@@ -2647,6 +2647,14 @@ input, select, textarea {
 			width: 6.25em;
 		}
 
+		#header .icons {
+			margin: 1em 0 1em 0;
+		}
+	
+			#header .icons a {
+				color: rgba(255, 255, 255, 0.75);
+			}
+
 /* Footer */
 
 	#footer .icons {
